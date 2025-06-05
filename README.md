@@ -512,4 +512,99 @@
 </body>
 </html>
 
+/*for*/
+<style>
+    .car {
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin: 15px auto;
+      max-width: 400px;
+      background-color: #eafff1;
+      border-left: 5px solid #00b253;
+    }
+  </style>
+</head>
+<body>
+
+<h2 style="text-align:center;">Danh sách xe cho thuê</h2>
+
+<script>
+  const cars = [
+    { loai: "Xe 4 chỗ", soCho: 4, gia: "800.000đ/ngày"},
+    { loai: "Xe 7 chỗ", soCho: 7, gia: "1.200.000đ/ngày"},
+    { loai: "Xe 16 chỗ", soCho: 16, gia: "1.800.000đ/ngày"},
+    { loai: "Xe Limousine", soCho: 9, gia: "2.500.000đ/ngày"},
+    { loai: "Xe máy", soCho: 2, gia: "150.000đ/ngày"},
+    { loai: "Xe tải", soCho: 3, gia: "1.000.000đ/ngày"}
+  ];
+  for (let i = 0; i < cars.length; i++) {
+    document.write(`
+      <div class="car">
+        <strong>Loại xe:</strong> ${cars[i].loai}<br>
+        <strong>Số chỗ:</strong> ${cars[i].soCho}<br>
+        <strong>Giá thuê:</strong> ${cars[i].gia}
+      </div>
+    `);
+  }
+</script>
+
+/*table8/
+ table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-top: 10px;
+    }
+
+    table, th, td {
+      border: 1px solid #434242;
+    }
+
+    th, td {
+      padding: 8px;
+      text-align: left;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1> Car Rental</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Trang chủ</a></li>
+        <li><a href="#">Dịch vụ</a></li>
+        <li><a href="#">Bảng giá</a></li>
+        <li><a href="#">Liên hệ</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="article">
+    <h1> Xe Toyota Vios cho thuê</h1>
+    <img src="https://via.placeholder.com/400x200" alt="Hình ảnh xe Toyota Vios">
+    <p><strong>Loại xe:</strong> Sedan</p>
+    <p><strong>Giá thuê:</strong> 800.000 VNĐ/ngày</p>
+
+    <table>
+      <tr>
+        <th>Thông tin</th>
+        <th>Chi tiết</th>
+      </tr>
+      <tr>
+        <td>Số chỗ ngồi</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>Nhiên liệu</td>
+        <td>Xăng</td>
+      </tr>
+      <tr>
+        <td>Hộp số</td>
+        <td>Tự động</td>
+      </tr>
+      <tr>
+        <td>Điều hòa</td>
+        <td>Có</td>
+      </tr>
+    </table>
+  </section>
+
 
