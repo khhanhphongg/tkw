@@ -53,6 +53,16 @@
     </style>
 </head>
 <body>
+    <header>
+        <div class="logo">
+          <!-- SVG logo -->
+          <svg viewBox="0 0 64 64" fill="#ffffff">
+            <circle cx="32" cy="32" r="30" stroke="#ffe700" stroke-width="4" fill="#2fcbff"></circle>
+            <text x="32" y="40" text-anchor="middle" font-size="20" fill="#ffffff" font-family="Arial">J</text>
+          </svg>
+          <h1>Job seek</h1>
+        </div>
+    </header>
     <div class="nav">
         <div onclick="location.href='cau5.html'">Trang chủ</div>
         <div onclick="location.href='cau1.html'">Giới thiệu</div>
@@ -60,14 +70,6 @@
         <div onclick="location.href='cau3.html'">Việc làm</div>
         <div onclick="location.href='cau4.html'">Đăng ký</div>
       </div>
-    <header>
-        <div class = "logo">
-            <svg viewBox = "0 0 0 64" fill = "#ffffff">
-                <circle cx = "32" cy = "32" r = "30" stroke = "ffe700" stroke-width = "4" fill = "#2fcbff"></circle>
-                <text x = "32" y = "40" text-anchor = "middle" font-size = "20" fill = "#ffffff" font-family = "Arial">J</text>
-            </svg>
-        </div>
-    </header>
     <section class = "article">
         <h2>Tuyen dung nhan vien</h2>
         <img src = "https://via.placeholder.com/400x200" alt = "Marketing Image">
