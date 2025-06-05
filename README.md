@@ -27,14 +27,14 @@
       height: 40px;
       margin-right: 10px;
     }
-    nav {
+    .nav {
       background: #ffe700;
       display: flex;
       justify-content: center;
       padding: 10px;
       gap: 15px;
     }
-    nav a {
+    .nav a {
       color: #2f63ff;
       font-weight: bold;
       text-decoration: none;
@@ -52,13 +52,13 @@
   </style>
 </head>
 <body>
-    <nav>
-        <a href="5.html">Trang chủ</a>
-        <a href="1.html">Giới thiệu</a>
-        <a href="2.html">Tuyển dụng</a>
-        <a href="3.html">Việc làm</a>
-        <a href="4.html">Đăng ký</a>
-      </nav>
+   <div class="nav">
+        <a href="cau5.html">Trang chủ</a>
+        <a href="cau1.html">Giới thiệu</a>
+        <a href="cau2.html">Tuyển dụng</a>
+        <a href="cau3.html">Việc làm</a>
+        <a href="cau4.html">Đăng ký</a>
+   </div>
 <header>
   <div class="logo">
     <!-- SVG logo -->
@@ -71,7 +71,7 @@
 </header>
 
 <section class="article">
-  <h2>🌟 Tuyển dụng Nhân viên Marketing</h2>
+  <h2>Tuyển dụng Nhân viên Marketing</h2>
   <img src="https://via.placeholder.com/400x200" alt="Marketing Image">
   <p><strong>Vị trí:</strong> Nhân viên Marketing</p>
   <p><strong>Mức lương:</strong> 10 - 15 triệu VNĐ</p>
@@ -118,14 +118,14 @@
       border-radius: 10px;
       box-shadow: 0 2px 8px #999999;
     }
-    nav {
+    .nav {
       background: #ffe700;
       display: flex;
       justify-content: center;
       padding: 10px;
       gap: 15px;
     }
-    nav a {
+    .nav a {
       color: #2f63ff;
       font-weight: bold;
       text-decoration: none;
@@ -133,13 +133,13 @@
   </style>
 </head>
 <body>
-    <nav>
-        <a href="5.html">Trang chủ</a>
-        <a href="1.html">Giới thiệu</a>
-        <a href="2.html">Tuyển dụng</a>
-        <a href="3.html">Việc làm</a>
-        <a href="4.html">Đăng ký</a>
-      </nav>
+   <div class="nav">
+        <a href="cau5.html">Trang chủ</a>
+        <a href="cau1.html">Giới thiệu</a>
+        <a href="cau2.html">Tuyển dụng</a>
+        <a href="cau3.html">Việc làm</a>
+        <a href="cau4.html">Đăng ký</a>
+  </div>
 <div class="item">HTML cơ bản</div>
 <div class="item">CSS nâng cao</div>
 <div class="item">JS</div>
@@ -167,14 +167,14 @@
       background-color: #e8faff;
       border-left: 5px solid #00b253;
     }
-    nav {
+    .nav {
       background: #ffe700;
       display: flex;
       justify-content: center;
       padding: 10px;
       gap: 15px;
     }
-    nav a {
+    .nav a {
       color: #2f63ff;
       font-weight: bold;
       text-decoration: none;
@@ -182,13 +182,13 @@
   </style>
 </head>
 <body>
-    <nav>
-        <a href="5.html">Trang chủ</a>
-        <a href="1.html">Giới thiệu</a>
-        <a href="2.html">Tuyển dụng</a>
-        <a href="3.html">Việc làm</a>
-        <a href="4.html">Đăng ký</a>
-      </nav>
+    <div class="nav">
+        <a href="cau5.html">Trang chủ</a>
+        <a href="cau1.html">Giới thiệu</a>
+        <a href="cau2.html">Tuyển dụng</a>
+        <a href="cau3.html">Việc làm</a>
+        <a href="cau4.html">Đăng ký</a>
+   </div>
 <h2 style="text-align:center;">Danh sách việc làm</h2>
 
 <script>
@@ -264,14 +264,14 @@
     @media (min-width: 1025px) {
       form { width: 50%; }
     }
-    nav {
+    .nav {
       background: #ffe700;
       display: flex;
       justify-content: center;
       padding: 10px;
       gap: 15px;
     }
-    nav a {
+    .nav a {
       color: #2f63ff;
       font-weight: bold;
       text-decoration: none;
@@ -279,13 +279,13 @@
   </style>
 </head>
 <body>
-    <nav>
-        <a href="5.html">Trang chủ</a>
-        <a href="1.html">Giới thiệu</a>
-        <a href="2.html">Tuyển dụng</a>
-        <a href="3.html">Việc làm</a>
-        <a href="4.html">Đăng ký</a>
-      </nav>
+   <div class="nav">
+        <a href="cau5.html">Trang chủ</a>
+        <a href="cau1.html">Giới thiệu</a>
+        <a href="cau2.html">Tuyển dụng</a>
+        <a href="cau3.html">Việc làm</a>
+        <a href="cau4.html">Đăng ký</a>
+   </div>
 <form onsubmit="return validateForm()">
   <h2>Đăng ký việc làm</h2>
   <input type="text" id="name" placeholder="Họ và tên" required>
@@ -343,14 +343,14 @@
       height: 40px;
       margin-right: 10px;
     }
-    nav {
+    .nav {
       background: #ffe700;
       display: flex;
       justify-content: center;
       padding: 10px;
       gap: 15px;
     }
-    nav a {
+    .nav a {
       color: #2f63ff;
       font-weight: bold;
       text-decoration: none;
@@ -445,13 +445,13 @@
         </div>
       </header>
 
-<nav>
-  <a href="5.html">Trang chủ</a>
-  <a href="1.html">Giới thiệu</a>
-  <a href="2.html">Tuyển dụng</a>
-  <a href="3.html">Việc làm</a>
-  <a href="4.html">Đăng ký</a>
-</nav>
+<div class="nav">
+        <a href="cau5.html">Trang chủ</a>
+        <a href="cau1.html">Giới thiệu</a>
+        <a href="cau2.html">Tuyển dụng</a>
+        <a href="cau3.html">Việc làm</a>
+        <a href="cau4.html">Đăng ký</a>
+</div>
 
 <p class="slogan">"Cơ hội nghề nghiệp rộng mở, chỉ cách bạn một cú click!"</p>
 
