@@ -1,152 +1,148 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang = "en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="device-width, initial-scale=1.0">
-  <title>Job seek - Website học tiếng Anh</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-    header {
-      background-color: #2f63ff;
-      color: white;
-      padding: 20px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-    .logo {
-      display: flex;
-      align-items: center;
-    }
-    .logo svg {
-      width: 40px;
-      height: 40px;
-      margin-right: 10px;
-    }
-    .nav {
-      background: #ffe700;
-      display: flex;
-      justify-content: center;
-      padding: 10px;
-      gap: 15px;
-    }
-    .nav a {
-      color: #2f63ff;
-      font-weight: bold;
-      text-decoration: none;
-    }
-    .article {
-      padding: 20px;
-    }
-    .article img {
-      width: 100%;
-      max-width: 400px;
-      height: auto;
-      display: block;
-      margin-bottom: 10px;
-    }
-  </style>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <title>Job seek</title>
+    <style>
+        body {
+            font-family: Arial, Sans-Serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #2f63ff;
+            color: white;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+        .logo svg {
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+        }
+        .nav {
+            background: #ffe700;
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+            gap: 15px
+        }
+        .nav div {
+            color: #2f63ff;
+            font-weight: bold;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .article {
+            padding: 20px;
+        }
+        .article img {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 <body>
-   <div class="nav">
-        <a href="cau5.html">Trang chủ</a>
-        <a href="cau1.html">Giới thiệu</a>
-        <a href="cau2.html">Tuyển dụng</a>
-        <a href="cau3.html">Việc làm</a>
-        <a href="cau4.html">Đăng ký</a>
-   </div>
-<header>
-  <div class="logo">
-    <!-- SVG logo -->
-    <svg viewBox="0 0 64 64" fill="#ffffff">
-      <circle cx="32" cy="32" r="30" stroke="#ffe700" stroke-width="4" fill="#2fcbff"></circle>
-      <text x="32" y="40" text-anchor="middle" font-size="20" fill="#ffffff" font-family="Arial">J</text>
-    </svg>
-    <h1>Job seek</h1>
-  </div>
-</header>
-
-<section class="article">
-  <h2>Tuyển dụng Nhân viên Marketing</h2>
-  <img src="https://via.placeholder.com/400x200" alt="Marketing Image">
-  <p><strong>Vị trí:</strong> Nhân viên Marketing</p>
-  <p><strong>Mức lương:</strong> 10 - 15 triệu VNĐ</p>
-  <p><strong>Mô tả:</strong> Làm việc tại văn phòng Hà Nội, yêu cầu có kinh nghiệm từ 1 năm trở lên, có khả năng giao tiếp và sáng tạo nội dung tốt.</p>
-</section>
-
+    <div class="nav">
+        <div onclick="location.href='cau5.html'">Trang chủ</div>
+        <div onclick="location.href='cau1.html'">Giới thiệu</div>
+        <div onclick="location.href='cau2.html'">Tuyển dụng</div>
+        <div onclick="location.href='cau3.html'">Việc làm</div>
+        <div onclick="location.href='cau4.html'">Đăng ký</div>
+      </div>
+    <header>
+        <div class = "logo">
+            <svg viewBox = "0 0 0 64" fill = "#ffffff">
+                <circle cx = "32" cy = "32" r = "30" stroke = "ffe700" stroke-width = "4" fill = "#2fcbff"></circle>
+                <text x = "32" y = "40" text-anchor = "middle" font-size = "20" fill = "#ffffff" font-family = "Arial">J</text>
+            </svg>
+        </div>
+    </header>
+    <section class = "article">
+        <h2>Tuyen dung nhan vien</h2>
+        <img src = "https://via.placeholder.com/400x200" alt = "Marketing Image">
+        <p><strong>Vi tri:</strong>Nhan vien Marketing</p>
+        <p><strong>Muc luong:</strong>10-15 trieu dong</p>
+        <p><strong>Mo ta:</strong> Làm việc tại văn phòng Hà Nội, yêu cầu có kinh nghiệm từ 1 năm trở lên, có khả năng giao tiếp và sáng tạo nội dung tốt.</p>
+    </section>
 </body>
 </html>
 
 2
 <!DOCTYPE html>
-<html lang="vi">
+<html lang = "en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="device-width, initial-scale=1.0">
-  <title>Câu 2</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 20px;
-      background: #ffffff;
-      text-align: center;
-    }
-    .item {
-      width: 150px;
-      height: 100px;
-      background-color: #00b253;
-      display: inline-block;
-      margin: 10px;
-      border-radius: 8px;
-      box-shadow: 0 2px 5px #000;
-    }
-    .advert {
-      width: 100%;
-      max-width: 600px;
-      height: 200px;
-      margin: 30px auto;
-      border: 2px solid #2f63ff;
-      background-color: #2fcbff;
-      line-height: 200px;
-      font-weight: bold;
-      color: #000;
-      border-radius: 10px;
-      box-shadow: 0 2px 8px #999999;
-    }
-    .nav {
-      background: #ffe700;
-      display: flex;
-      justify-content: center;
-      padding: 10px;
-      gap: 15px;
-    }
-    .nav a {
-      color: #2f63ff;
-      font-weight: bold;
-      text-decoration: none;
-    }
-  </style>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width=device-width,initial-scale=1.0">
+    <title>Tuyen dung</title>
+    <style>
+        body {
+            font-family: Arial, Sans-Serif;
+            margin: 0;
+            padding: 20px;
+            background: #ffffff;
+            text-align: center;
+        }
+        .nav {
+            background: #ffe700;
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+            gap: 15px;
+        }
+        .nav div {
+            color: #2f63ff;
+            font-weight: bold;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .item {
+            width: 150px;
+            height: 100px;
+            background-color: #00b253;
+            display: inline-block;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px #000;
+        }
+        .advert {
+            width: 100%;
+            max-width: 600px;
+            height: 200px;
+            margin: 30px auto;
+            border: 2px solid #2f63ff;
+            background-color: #2fcbff;
+            line-height: 200px;
+            font-weight: bold;
+            color: #000;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px #999999;
+        }
+    </style>
 </head>
 <body>
-   <div class="nav">
-        <a href="cau5.html">Trang chủ</a>
-        <a href="cau1.html">Giới thiệu</a>
-        <a href="cau2.html">Tuyển dụng</a>
-        <a href="cau3.html">Việc làm</a>
-        <a href="cau4.html">Đăng ký</a>
-  </div>
-<div class="item">HTML cơ bản</div>
-<div class="item">CSS nâng cao</div>
-<div class="item">JS</div>
-<div class="item">React JS</div>
-
-<div class="advert">Quảng cáo khóa học hấp dẫn!</div>
-
+    <div class="nav">
+        <div onclick="location.href='cau5.html'">Trang chủ</div>
+        <div onclick="location.href='cau1.html'">Giới thiệu</div>
+        <div onclick="location.href='cau2.html'">Tuyển dụng</div>
+        <div onclick="location.href='cau3.html'">Việc làm</div>
+        <div onclick="location.href='cau4.html'">Đăng ký</div>
+      </div>
+    <div class = "item"> HTML co ban</div>
+    <div class = "item">CSS nâng cao</div>
+    <div class = "item">JS</div>
+    <div class = "item">React JS</div>
+    <div class = "advert">Quang cao hap dan!</div>    
 </body>
 </html>
 
@@ -174,21 +170,22 @@
       padding: 10px;
       gap: 15px;
     }
-    .nav a {
+    .nav div {
       color: #2f63ff;
       font-weight: bold;
       text-decoration: none;
+      cursor: pointer;
     }
   </style>
 </head>
 <body>
     <div class="nav">
-        <a href="cau5.html">Trang chủ</a>
-        <a href="cau1.html">Giới thiệu</a>
-        <a href="cau2.html">Tuyển dụng</a>
-        <a href="cau3.html">Việc làm</a>
-        <a href="cau4.html">Đăng ký</a>
-   </div>
+        <div onclick="location.href='cau5.html'">Trang chủ</div>
+        <div onclick="location.href='cau1.html'">Giới thiệu</div>
+        <div onclick="location.href='cau2.html'">Tuyển dụng</div>
+        <div onclick="location.href='cau3.html'">Việc làm</div>
+        <div onclick="location.href='cau4.html'">Đăng ký</div>
+      </div>
 <h2 style="text-align:center;">Danh sách việc làm</h2>
 
 <script>
@@ -271,21 +268,22 @@
       padding: 10px;
       gap: 15px;
     }
-    .nav a {
+    .nav div {
       color: #2f63ff;
       font-weight: bold;
       text-decoration: none;
+      cursor: pointer;
     }
   </style>
 </head>
 <body>
-   <div class="nav">
-        <a href="cau5.html">Trang chủ</a>
-        <a href="cau1.html">Giới thiệu</a>
-        <a href="cau2.html">Tuyển dụng</a>
-        <a href="cau3.html">Việc làm</a>
-        <a href="cau4.html">Đăng ký</a>
-   </div>
+    <div class="nav">
+        <div onclick="location.href='cau5.html'">Trang chủ</div>
+        <div onclick="location.href='cau1.html'">Giới thiệu</div>
+        <div onclick="location.href='cau2.html'">Tuyển dụng</div>
+        <div onclick="location.href='cau3.html'">Việc làm</div>
+        <div onclick="location.href='cau4.html'">Đăng ký</div>
+    </div>
 <form onsubmit="return validateForm()">
   <h2>Đăng ký việc làm</h2>
   <input type="text" id="name" placeholder="Họ và tên" required>
@@ -350,10 +348,11 @@
       padding: 10px;
       gap: 15px;
     }
-    .nav a {
+    .nav div {
       color: #2f63ff;
       font-weight: bold;
       text-decoration: none;
+      cursor: pointer;
     }
     .slogan {
       text-align: center;
@@ -445,17 +444,16 @@
         </div>
       </header>
 
-<div class="nav">
-        <a href="cau5.html">Trang chủ</a>
-        <a href="cau1.html">Giới thiệu</a>
-        <a href="cau2.html">Tuyển dụng</a>
-        <a href="cau3.html">Việc làm</a>
-        <a href="cau4.html">Đăng ký</a>
-</div>
-
+      <div class="nav">
+        <div onclick="location.href='cau5.html'">Trang chủ</div>
+        <div onclick="location.href='cau1.html'">Giới thiệu</div>
+        <div onclick="location.href='cau2.html'">Tuyển dụng</div>
+        <div onclick="location.href='cau3.html'">Việc làm</div>
+        <div onclick="location.href='cau4.html'">Đăng ký</div>
+      </div>
 <p class="slogan">"Cơ hội nghề nghiệp rộng mở, chỉ cách bạn một cú click!"</p>
 
-<div class="advert">🔔 Khóa học miễn phí cho sinh viên mới tốt nghiệp</div>
+<div class="advert"> Khóa học miễn phí cho sinh viên mới tốt nghiệp</div>
 
 <div class="course-container" id="courses"></div>
 
@@ -463,7 +461,7 @@
   const courses = [
     { ten: "Khóa học HTML" },
     { ten: "Khóa học CSS" },
-    { ten: "Khóa học JS cơ bản" },
+    { ten: "Khóa học cơ bản" },
     { ten: "Khóa học ReactJS" }
   ];
 
